@@ -1,0 +1,98 @@
+body {
+    color: white;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    display: block;
+    margin: 8px;
+}
+
+h1, h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.nome {
+    /* propriedade font-family pode conter vários nomes de fontes como um sistema "substituto". Se o navegador não suportar a primeira fonte, ele tentará a próxima fonte.*/
+    font-family: 'Courier New', Courier, monospace;
+
+    /*A propriedade font-style especifica o estilo da fonte de um texto.*/
+    font-style: italic;
+
+    /*A propriedade font-size define o tamanho de uma fonte.*/
+    font-size: 20px;
+
+    /*A propriedade text-align especifica o alinhamento horizontal do texto em um elemento*/
+    text-align: center;
+    /*margin-top A propriedade CSS margin-top de um elemento indica o espaço acima do elemento.*/
+    margin-top: 40px;
+
+    /*A propriedade margin-left define a margem esquerda de um elemento.*/
+    margin-left: auto;
+
+    text-shadow: red 0px 0px 5px;
+}
+
+.profile {
+    display: block;
+    /*largura*/
+    width: 40%;
+    /*altura*/
+    height: 40%;
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    border-radius: 50%;
+
+    /*A propriedade overflow especifica se deve cortar o conteúdo ou adicionar barras de rolagem quando o conteúdo de um elemento é muito grande para caber na área especificada*/
+    overflow: hidden;
+
+    /*A propriedade position especifica o tipo de método de posicionamento usado para um elemento.*/
+    position: relative;
+
+    /*A propriedade z-index especifica a ordem da pilha de um elemento. Um elemento com uma ordem de pilha maior está sempre na frente de um elemento com uma ordem de pilha inferior.*/
+    z-index: 4;
+
+    /*A propriedade box-shadow anexa uma ou mais sombras a um elemento.*/
+    box-shadow: 0px 5px 50px 0px red;
+                
+}
+.hab{
+    text-align: center;
+    margin-top: 50px;
+    letter-spacing: 1px;
+}
+.text-medium{
+    text-align: center;
+    
+}
+
+li{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30%;
+  
+    text-shadow: 1px 0px 5px;
+}
+h2{
+    margin-left: 30%;
+    display: block;
+    padding: 14px; 
+    border-style: solid;
+    border-radius: 12px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border: 1px solid;
+    padding: 10px;
+    margin-right: 30%;
+    
+}
