@@ -3,7 +3,7 @@ body {
     background-color: black;
     margin: 0;
     padding: 0;
-    display: block;
+    
     
 }
 body {
@@ -86,7 +86,7 @@ li{
     
 }
 h2{
-    margin-top: 30%;
+    
     margin-left: 30%;
     display: block;
     padding: 14px; 
