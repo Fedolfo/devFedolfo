@@ -99,3 +99,13 @@ h2{
     margin-right: 30%;
     
 }
+
+.button{
+    color: #fff;
+    background-color: rgb(61, 13, 61);
+    padding: 10px 10px;
+    border-radius: 20px;
+    line-height: 20px;
+    text-decoration: none;
+    padding: 5px;
+}    
