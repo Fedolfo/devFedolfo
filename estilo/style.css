@@ -27,6 +27,17 @@ p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     
 }
+
+.central {
+    align-content: center;
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+    min-height: 500px;
+    max-width:1000px;
+    position: relative;
+    border-radius: 10px;
+    min-width: 400px;
+}
               /*start-section menu*/
         /*Primeiro Criamos um div e dividimos em varias class essa daqui é o menu*/
 .menu{
@@ -51,8 +62,7 @@ p {
     min-width: 656px;
     
 }
-    /*temos aqui o list-header onde vai estár linkado com a li, para podermos fazer confi
-    gurações de alinhamento em bloco a cor*/
+    /*temos aqui o list-header onde vai estár linkado com a li, basicamente aqui seria o chão para podermos construir o list-menu*/
 .list-header{
     display: inline-block;
     padding: 30px;
@@ -62,18 +72,20 @@ p {
     
     
 }
-
+    /*Temos aqui a construção o list-menu, vemos que aqui fazemos as paredes os brilho etc
+    colocamos a fonte cor de fundo devidamente feita. Vamos fazer a estilização da letra 
+    para termos uma visualização melhor, aumentamos o espaço com o padding, 
+    o text-align, text-decoration pra tirar barrinha em baixo é estilização com 
+    o border*/
 .list-menu {
     background-color: #ac2b0b;
     color: white;
-    padding: 14px 25px;
+    padding: 10px;
     text-align: center;
     text-decoration: none;
     border-color: #88006a;
     border-style: solid;
     border-radius: 12px;
-    padding: 10px;
-    text-align: center;
     border-top-width: 0px;
     border-right-width: 0px;
     border-bottom-width: 10px;
