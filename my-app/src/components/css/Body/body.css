@@ -1,0 +1,24 @@
+.apresentation {
+  text-shadow: 2px 2px #111111;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.buttons button {
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #282c34;
+  border: solid 2px #ffffff;
+  border-radius: 3px;
+  padding: 30px;
+  font-size: 30px;
+  text-shadow: 2px 2px #111111;
+}
+
+.buttons button:active {
+  background-color: rgb(131, 122, 122);
+}
