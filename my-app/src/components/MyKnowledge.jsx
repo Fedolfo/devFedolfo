@@ -9,7 +9,6 @@ import nodejs from '../images/nodejs.png';
 import reactimg from '../images/reactImg.png';
 import jest from '../images/jest.png';
 import rtl from '../images/rtl.svg';
-
 import './css/Body/icons.css';
 
 const MyKnowledge = () => {
