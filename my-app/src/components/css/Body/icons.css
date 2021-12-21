@@ -7,9 +7,11 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  height: 50vh;
+  height: 60vh;
 }
 
 .icons {
   margin: 10px;
+  height: 170px;
+  width: 170px;
 }

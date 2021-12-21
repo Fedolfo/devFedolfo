@@ -1,13 +1,13 @@
-import React, { useState } from "react";
-import Header from "./Header";
+import React, { useState } from 'react';
+import Header from './Header';
 import './css/Body/body.css';
-import Modal from "./Modal";
-import AboutMe from "./AboutMe";
-import MyKnowledge from "./MyKnowledge";
+import Modal from './Modal';
+import AboutMe from './AboutMe';
+import MyKnowledge from './MyKnowledge';
 
 function Body() {
-  const [isModalVisible, setIsModalVisible] = useState(false)
-  const [isModalVisibleTwo, setIsModalVisibleTwo] = useState(false)
+  const [isModalVisible, setIsModalVisible] = useState(false);
+  const [isModalVisibleTwo, setIsModalVisibleTwo] = useState(false);
   return (
     <div>
       <header>
@@ -21,24 +21,30 @@ function Body() {
         <button
           type="button"
           onClick={() => setIsModalVisible(true)}
-          className="buttons">
-            Um pouco sobre mim
+          className="buttons"
+        >
+          Um pouco sobre mim
         </button>
         {isModalVisible
-          && <Modal onClose={() => setIsModalVisible(false)}>
+          && (
+          <Modal onClose={() => setIsModalVisible(false)}>
             <AboutMe />
-        </Modal>}
+          </Modal>
+          )}
 
         <button
           type="button"
           className="buttons"
-          onClick={() => setIsModalVisibleTwo(true)}>
-            Meus conhecimentos
+          onClick={() => setIsModalVisibleTwo(true)}
+        >
+          Meus conhecimentos
         </button>
         {isModalVisibleTwo
-          && <Modal onClose={() => setIsModalVisibleTwo(false)}>
+          && (
+          <Modal onClose={() => setIsModalVisibleTwo(false)}>
             <MyKnowledge />
-        </Modal>}
+          </Modal>
+          )}
 
       </section>
     </div>

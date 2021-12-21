@@ -15,9 +15,10 @@ const MyKnowledge = () => {
   const images = [html, css, js, reactimg, jest, rtl, git, docker, mysql, nodejs];
   return (
     <div className='container-images'>
-      {images.map((image) => <img src={image} alt="fotos" width="170px" height="170px" className="icons"/>)}
+      {images.map((image) => <img
+       src={image} alt="fotos" className="icons"/>)}
     </div>
     );
-}
+};
 
 export default MyKnowledge;

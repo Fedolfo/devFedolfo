@@ -1,0 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+
+.container-about-me {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
