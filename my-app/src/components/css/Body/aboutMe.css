@@ -4,6 +4,18 @@
 
 .container-about-me {
   display: flex;
-  justify-content: center;
+  padding: 30px;
+  flex-direction: column;
+  text-align: justify;
+}
+
+.container-about-me p {
   text-align: center;
+  font-size: 22px;
+  line-height: 32px;
+  color: #1c1c1c;
+}
+
+.container-about-me a {
+  color: #1c1c1c;
 }
