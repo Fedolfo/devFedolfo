@@ -2,13 +2,13 @@
   text-shadow: 2px 2px #111111;
 }
 
-.buttons {
+.container-buttons {
   display: flex;
   justify-content: space-around;
   margin-top: 100px;
 }
 
-.buttons button {
+.buttons {
   color: #ffffff;
   cursor: pointer;
   background-color: #282c34;
@@ -19,6 +19,6 @@
   text-shadow: 2px 2px #111111;
 }
 
-.buttons button:active {
+.buttons:active {
   background-color: rgb(131, 122, 122);
 }

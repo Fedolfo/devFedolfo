@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+.container-images {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+}
+
+.icons {
+  margin: 10px;
+}

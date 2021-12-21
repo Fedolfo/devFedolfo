@@ -1,9 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "./Header";
 import './css/Body/body.css';
+import Modal from "./Modal";
+import AboutMe from "./AboutMe";
+import MyKnowledge from "./MyKnowledge";
 
-
-function Body () {
+function Body() {
+  const [isModalVisible, setIsModalVisible] = useState(false)
+  const [isModalVisibleTwo, setIsModalVisibleTwo] = useState(false)
   return (
     <div>
       <header>
@@ -12,13 +16,29 @@ function Body () {
       <section className="apresentation">
         <h2>Olá, me chamo Filipe, Bem vindo(a) ao meu Portfólio!</h2>
       </section>
-      <section className="buttons">
-        <button type="button">
-          Um pouco sobre mim
+      <section className="container-buttons">
+        <button
+          type="button"
+          onClick={() => setIsModalVisible(true)}
+          className="buttons">
+            Um pouco sobre mim
         </button>
-        <button type="button">
-          Meus conhecimentos
+        {isModalVisible
+          && <Modal onClose={() => setIsModalVisible(false)}>
+            <AboutMe />
+        </Modal>}
+
+        <button
+          type="button"
+          className="buttons"
+          onClick={() => setIsModalVisibleTwo(true)}>
+            Meus conhecimentos
         </button>
+        {isModalVisibleTwo
+          && <Modal onClose={() => setIsModalVisibleTwo(false)}>
+            <MyKnowledge />
+        </Modal>}
+
       </section>
     </div>
   );
