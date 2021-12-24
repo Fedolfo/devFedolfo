@@ -15,20 +15,20 @@
   overflow: hidden;
   background-color: #333333;
   border: 1px solid;
-  margin: 10px;
+  margin: 5px;
   border-radius: 10px;
 }
 
 .panel-container ul li {
   float: left;
   margin: 10px;
-  width: 350px;
-  height: 350px;
+  width: 400px;
+  height: 400px;
 }
 
 .default-container-image {
   background-repeat: no-repeat;
-  width: 350px;
-  height: 350px;
-  z-index: 2;
+  width: 400px;
+  height: 400px;
+  border-radius: 10px;
 }
