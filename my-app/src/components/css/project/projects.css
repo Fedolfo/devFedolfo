@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+.panel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.panel-container .control-panel ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+  border: 1px solid;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.panel-container ul li {
+  float: left;
+  margin: 10px;
+  width: 350px;
+  height: 350px;
+}
+
+.default-container-image {
+  background-repeat: no-repeat;
+  width: 350px;
+  height: 350px;
+  z-index: 2;
+}

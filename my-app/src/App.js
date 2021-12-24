@@ -3,11 +3,11 @@ import Routes from './Routes';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <main className="App">
+      <center className="App-header">
         <Routes />
-      </header>
-    </div>
+      </center>
+    </main>
   );
 }
 
