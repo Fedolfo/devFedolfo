@@ -1,3 +1,4 @@
+import PropTypes from "prop-types"
 import React from 'react';
 
 const Modal = ({ id = 'modal', onClose = () => {}, children }) => {
@@ -13,5 +14,11 @@ const Modal = ({ id = 'modal', onClose = () => {}, children }) => {
    </div>
  );
 };
+
+Modal.propTypes = {
+  children: PropTypes.node,
+  id: PropTypes.string,
+  onClose: PropTypes.func
+}.isRequired;
 
 export default Modal;
