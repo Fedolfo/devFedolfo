@@ -8,6 +8,7 @@ import trybewarts from "../images/projects/trybewarts.png";
 import cartShop from "../images/projects/cartShop.png";
 import movieCrud from "../images/projects/moviecrud.png";
 import trivia from "../images/projects/trivia.png";
+import recipe from "../images/projects/recipe.png";
 
 function Projects () {
   return (
@@ -53,6 +54,12 @@ function Projects () {
               url="https://trivia-redux-roan.vercel.app/"
               photo={ trivia }
               descriptionPhoto="página trivia redux"
+            />
+            <Panels
+              title="App de Receitas"
+              url="https://recipes-app-blue.vercel.app/ "
+              photo={ recipe }
+              descriptionPhoto="página recipes app"
             />
         </div>
       </section>

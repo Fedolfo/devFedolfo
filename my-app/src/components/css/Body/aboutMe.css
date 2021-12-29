@@ -3,19 +3,27 @@
 }
 
 .container-about-me {
+  align-items: center;
   display: flex;
   padding: 30px;
-  flex-direction: column;
   text-align: justify;
 }
 
-.container-about-me p {
+.container-text {
+  display: flex;
   text-align: center;
+  flex-direction: column;
+  padding: 70px;
   font-size: 22px;
   line-height: 32px;
   color: #1c1c1c;
 }
 
-.container-about-me a {
+.container-about-me .container-text a {
   color: #1c1c1c;
+}
+
+.container-about-me .photo-perfil {
+  border-radius: 50%;
+  margin-bottom: 230px;
 }
