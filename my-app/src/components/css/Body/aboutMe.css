@@ -5,7 +5,7 @@
 .container-about-me {
   align-items: center;
   display: flex;
-  padding: 30px;
+  padding: 20px;
   text-align: justify;
 }
 
@@ -13,17 +13,79 @@
   display: flex;
   text-align: center;
   flex-direction: column;
-  padding: 70px;
-  font-size: 22px;
-  line-height: 32px;
+  padding: 20px;
+  font-size: 24px;
+  margin-top: 150px;
+  line-height: 28px;
   color: #1c1c1c;
+}
+
+.container-about-me .photo-perfil {
+  border-radius: 50%;
+  position: absolute;
+  top: 110px;
+  /* width: 150px; */
 }
 
 .container-about-me .container-text a {
   color: #1c1c1c;
 }
 
-.container-about-me .photo-perfil {
-  border-radius: 50%;
-  margin-bottom: 230px;
+@media (max-width: 575.98px) {
+  .container-text {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 20px;
+    font-size: 20px;
+    margin-top: 110px;
+    line-height: 28px;
+    color: #1c1c1c;
+  }
+  .container-about-me .photo-perfil {
+    border-radius: 50%;
+    position: absolute;
+    top: 90px;
+    width: 150px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .container-text {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 20px;
+    font-size: 20px;
+    margin-top: 110px;
+    line-height: 28px;
+    color: #1c1c1c;
+  }
+
+  .container-about-me .photo-perfil {
+    border-radius: 50%;
+    position: absolute;
+    top: 120px;
+    width: 150px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .container-text {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 20px;
+    font-size: 20px;
+    margin-top: 110px;
+    line-height: 28px;
+    color: #1c1c1c;
+  }
+
+  .container-about-me .photo-perfil {
+    border-radius: 50%;
+    position: absolute;
+    top: 130px;
+    width: 150px;
+  }
 }

@@ -1,5 +1,6 @@
 .apresentation {
   margin-top: 200px;
+  padding: 10px;
   text-shadow: 2px 2px #111111;
 }
 
@@ -14,7 +15,7 @@
   cursor: pointer;
   background-color: #282c34;
   border: solid 2px #ffffff;
-  border-radius: 3px;
+  border-radius: 5px;
   padding: 30px;
   font-size: 30px;
   text-shadow: 2px 2px #111111;
@@ -22,4 +23,41 @@
 
 .buttons:active {
   background-color: rgb(131, 122, 122);
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .apresentation {
+    margin-top: 150px;
+  }
+
+  .buttons {
+    padding: 20px;
+    font-size: 20px;
+  }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .apresentation {
+    margin-top: 150px;
+  }
+
+  .buttons {
+    padding: 20px;
+    font-size: 23px;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .apresentation {
+    margin-top: 150px;
+    padding: 10px;
+  }
+
+  .buttons {
+    padding: 30px;
+    font-size: 25px;
+  }
 }
