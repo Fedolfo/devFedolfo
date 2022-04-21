@@ -1,63 +1,61 @@
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .container-about-me {
-  align-items: center;
-  display: flex;
-  padding: 20px;
-  text-align: justify;
+    align-items: center;
+    display: flex;
+    padding: 20px;
+    text-align: justify;
 }
 
 .container-text {
-  display: flex;
-  text-align: center;
-  flex-direction: column;
-  padding: 20px;
-  font-size: 24px;
-  margin: 150px 0 0 0;
-  line-height: 28px;
-  color: #1c1c1c;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin: 40px 0 0 0;
+    padding: 20px;
+    font-size: 24px;
+    line-height: 28px;
+    color: #1c1c1c;
 }
 
 .container-about-me .container-text a {
-  color: #1c1c1c;
+    color: #1c1c1c;
 }
 
 @media (max-width: 575.98px) {
-  .container-text {
-    display: flex;
-    text-align: center;
-    margin: 0 0 20px 0;
-    flex-direction: column;
-    font-size: 16px;
-    line-height: 20px;
-    color: #1c1c1c;
-  }
+    .container-text {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        margin: 0;
+        font-size: 16px;
+        line-height: 18px;
+        color: #1c1c1c;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 768.98px) {
-  .container-text {
-    display: flex;
-    text-align: center;
-    margin: 0 0 20px 0;
-    flex-direction: column;
-    padding: 20px;
-    font-size: 20px;
-    margin-top: 110px;
-    line-height: 28px;
-    color: #1c1c1c;
-  }
+    .container-text {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        padding: 20px;
+        font-size: 16px;
+        line-height: 28px;
+        color: #1c1c1c;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-  .container-text {
-    display: flex;
-    text-align: center;
-    margin: 60px 0 0 0;
-    flex-direction: column;
-    padding: 20px;
-    line-height: 28px;
-    color: #1c1c1c;
-  }
+    .container-text {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        font-size: 20px;
+        padding: 20px;
+        line-height: 28px;
+        color: #1c1c1c;
+    }
 }
