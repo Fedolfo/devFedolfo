@@ -1,117 +1,114 @@
 .modal {
-  align-items: center;
-  background-color: rgba(0, 0, 0, 0.8);
-  display: flex;
-  justify-content: center;
-  left: 0;
-  position: absolute;
-  height: 100vh;
-  top: 0;
-  width: auto;
-  z-index: 10;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    left: 0;
+    position: absolute;
+    height: 100vh;
+    top: 0;
+    width: auto;
+    z-index: 10;
 }
 
 .container {
-  background-color: #fff;
-  color: #000;
-  height: 80%;
-  width: 80%;
-  border-radius: 20px;
+    background-color: #fff;
+    color: #000;
+    height: 80%;
+    width: 80%;
+    border-radius: 20px;
 }
 
 .close {
-  align-items: center;
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-  display: flex;
-  outline: none;
-  width: 32px;
-  height: 32px;
-  right: calc(-52% + 64px);
-  top: 16px;
-  position: relative;
-  &:before,
-  &:after {
-    background-color: #000;
-    content: ' ';
-    position: absolute;
-    width: 2.5px;
-    height: 24px;
-  }
-  &:before {
-    transform: rotate(45deg);
-  }
-  &:after {
-    transform: rotate(-45deg);
-  }
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+    width: 32px;
+    height: 32px;
+    right: calc(-52% + 64px);
+    top: 16px;
+    position: relative;
+    &:before,
+    &:after {
+        background-color: #000;
+        content: ' ';
+        position: absolute;
+        width: 2.5px;
+        height: 24px;
+    }
+    &:before {
+        transform: rotate(45deg);
+    }
+    &:after {
+        transform: rotate(-45deg);
+    }
 }
 
 @media (max-width: 576px) {
-  .modal {
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.8);
-    display: flex;
-    justify-content: center;
-    left: 0;
-    position: absolute;
-    height: 100vh;
-    top: 0;
-    width: auto;
-    z-index: 10;
-  }
-
-  .container {
-    background-color: #fff;
-    color: #000;
-    height: auto;
-    width: auto;
-    border-radius: 20px;
-  }
+    .modal {
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.8);
+        display: flex;
+        justify-content: center;
+        left: 0;
+        position: absolute;
+        height: 100vh;
+        top: 0;
+        width: auto;
+        z-index: 10;
+    }
+    .container {
+        background-color: #fff;
+        color: #000;
+        height: auto;
+        width: auto;
+        border-radius: 20px;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
-  .modal {
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.8);
-    display: flex;
-    justify-content: center;
-    left: 0;
-    position: absolute;
-    height: 100vh;
-    top: 0;
-    width: auto;
-    z-index: 10;
-  }
-
-  .container {
-    background-color: #fff;
-    color: #000;
-    // height: 90%;
-    width: 90%;
-    border-radius: 20px;
-  }
+    .modal {
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.8);
+        display: flex;
+        justify-content: center;
+        left: 0;
+        position: absolute;
+        height: 100vh;
+        top: 0;
+        width: auto;
+        z-index: 10;
+    }
+    .container {
+        background-color: #fff;
+        color: #000;
+        // height: 90%;
+        width: 90%;
+        border-radius: 20px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-  .modal {
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.8);
-    display: flex;
-    justify-content: center;
-    left: 0;
-    position: absolute;
-    height: 100vh;
-    top: 0;
-    width: auto;
-    z-index: 10;
-  }
-
-  .container {
-    background-color: #fff;
-    color: #000;
-    height: 90%;
-    width: 90%;
-    border-radius: 20px;
-  }
+    .modal {
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.8);
+        display: flex;
+        justify-content: center;
+        left: 0;
+        position: absolute;
+        height: 100vh;
+        top: 0;
+        width: auto;
+        z-index: 10;
+    }
+    .container {
+        background-color: #fff;
+        color: #000;
+        height: 90%;
+        width: 90%;
+        border-radius: 20px;
+    }
 }
