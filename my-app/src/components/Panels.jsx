@@ -1,5 +1,4 @@
 import PropTypes from "prop-types"
-import react from "react";
 import "./css/project/projects.css";
 
 function Panels({ title, url, photo, descriptionPhoto }) {
