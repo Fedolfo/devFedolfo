@@ -16,7 +16,7 @@ const MyKnowledge = () => {
   return (
     <div className='container-images'>
       {images.map((image) => <img
-       src={image} alt="fotos" className="icons"/>)}
+       src={image} key={image} alt="fotos" className="icons"/>)}
     </div>
     );
 };
