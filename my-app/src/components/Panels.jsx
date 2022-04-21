@@ -1,18 +1,16 @@
 import PropTypes from "prop-types"
 import "./css/project/projects.css";
 
-function Panels({ title, url, photo, descriptionPhoto }) {
+function Panels({ title, onClick, photo, descriptionPhoto }) {
   return (
-      <div className="control-panel">
-        <ul>
-            <h3>{ title }</h3>
-          <li>
-            <a href={ url }target="_blank" rel="noreferrer">
-              <img src={ photo } alt={ descriptionPhoto }  className="default-container-image"/>
-            </a>
-          </li>
-        </ul>
-      </div>
+    <div className="control-panel">
+      <ul onClick={onClick} >
+        <h3>{title}</h3>
+        <li>
+          <img src={photo} alt={descriptionPhoto} className="default-container-image" />
+        </li>
+      </ul>
+    </div>
   );
 }
 
