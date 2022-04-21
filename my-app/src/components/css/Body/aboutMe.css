@@ -15,16 +15,9 @@
   flex-direction: column;
   padding: 20px;
   font-size: 24px;
-  margin-top: 150px;
+  margin: 150px 0 0 0;
   line-height: 28px;
   color: #1c1c1c;
-}
-
-.container-about-me .photo-perfil {
-  border-radius: 50%;
-  position: absolute;
-  top: 110px;
-  /* width: 150px; */
 }
 
 .container-about-me .container-text a {
@@ -35,39 +28,25 @@
   .container-text {
     display: flex;
     text-align: center;
+    margin: 0 0 20px 0;
     flex-direction: column;
-    padding: 20px;
     font-size: 16px;
-    margin-top: 110px;
     line-height: 20px;
     color: #1c1c1c;
   }
-
-  .container-about-me .photo-perfil {
-    border-radius: 50%;
-    position: absolute;
-    top: 90px;
-    width: 150px;
-  }
 }
 
-@media (min-width: 576px) and (max-width: 767.98px) {
+@media (min-width: 576px) and (max-width: 768.98px) {
   .container-text {
     display: flex;
     text-align: center;
+    margin: 0 0 20px 0;
     flex-direction: column;
     padding: 20px;
     font-size: 20px;
     margin-top: 110px;
     line-height: 28px;
     color: #1c1c1c;
-  }
-
-  .container-about-me .photo-perfil {
-    border-radius: 50%;
-    position: absolute;
-    top: 120px;
-    width: 150px;
   }
 }
 
@@ -75,18 +54,10 @@
   .container-text {
     display: flex;
     text-align: center;
+    margin: 60px 0 0 0;
     flex-direction: column;
     padding: 20px;
-    font-size: 20px;
-    margin-top: 110px;
     line-height: 28px;
     color: #1c1c1c;
-  }
-
-  .container-about-me .photo-perfil {
-    border-radius: 50%;
-    position: absolute;
-    top: 130px;
-    width: 150px;
   }
 }
