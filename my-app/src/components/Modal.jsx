@@ -1,7 +1,7 @@
 import PropTypes from "prop-types"
 import React from 'react';
 
-const Modal = ({ id = 'modal', onClose = () => {}, children }) => {
+const Modal = ({ id = 'modal', onClose = () => { /* TODO document why this arrow function is empty */ }, children }) => {
   const handleOutsideClick = (e) => {
     if (e.target.id === id) onClose();
   };
