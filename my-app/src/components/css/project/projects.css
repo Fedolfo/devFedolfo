@@ -1,42 +1,86 @@
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .panel-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .panel-container .control-panel ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333333;
-  border: 1px solid;
-  margin: 5px;
-  border-radius: 10px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    border: 1px solid;
+    margin: 5px;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 .panel-container .control-panel ul h3 {
-  padding: 15px;
-  margin: 0;
+    padding: 15px;
+    margin: 0;
 }
 
 .panel-container ul li {
-  float: left;
-  margin: 10px;
-  width: 400px;
-  height: 400px;
+    float: left;
+    margin: 10px;
+    width: 400px;
+    height: 400px;
 }
 
 .default-container-image {
-  background-repeat: no-repeat;
-  border-radius: 10px;
-  padding: 0px;
-  object-fit: cover;
-  height: 400px;
-  width: 400px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 0px;
+    object-fit: cover;
+    height: 400px;
+    width: 400px;
+}
+
+.container-content-panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container-content-panel img {
+    width: 50%;
+    height: 50%;
+}
+
+.container-content-panel .content-description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px;
+    width: 50%;
+}
+
+.container-content-panel .content-description p {
+    text-align: justify;
+    font-size: 20px;
+}
+
+.container-content-panel .buttons-content-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.container-content-panel .buttons-content-panel button {
+    width: 120px;
+    height: 40px;
+    font-size: 18px;
+    margin: 20px 0 0 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #333333;
+    color: white;
+    cursor: pointer;
 }
