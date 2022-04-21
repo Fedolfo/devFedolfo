@@ -1,24 +1,57 @@
 .header {
-  display: flex;
-  justify-content: center;
-  text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
 }
 
 .header ul li {
-  border-bottom: 1px solid #ccc;
-  display: inline-block;
-  font-size: 22px;
-  list-style-type: none;
-  padding: 8px;
-  text-shadow: 2px 2px #111111;
+    border-bottom: 1px solid #ccc;
+    display: inline-block;
+    font-size: 22px;
+    list-style-type: none;
+    padding: 8px;
+    text-shadow: 2px 2px #111111;
 }
 
 .header ul li a:link,
 a:visited {
-  color: white;
-  text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
 
 .header ul li a:hover {
-  color: rgb(131, 122, 122);
+    color: rgb(131, 122, 122);
+}
+
+@media (max-width: 575.98px) {
+    .header ul li {
+        border-bottom: 1px solid #ccc;
+        display: inline-block;
+        font-size: 22px;
+        list-style-type: none;
+        padding: 8px;
+        font-size: 18px;
+        text-shadow: 2px 2px #111111;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768.98px) {
+    .header ul li {
+        border-bottom: 1px solid #ccc;
+        display: inline-block;
+        font-size: 22px;
+        list-style-type: none;
+        padding: 8px;
+        text-shadow: 2px 2px #111111;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .header ul li {
+        border-bottom: 1px solid #ccc;
+        display: inline-block;
+        list-style-type: none;
+        padding: 8px;
+        text-shadow: 2px 2px #111111;
+    }
 }
