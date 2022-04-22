@@ -7,7 +7,8 @@ import MyKnowledge from './MyKnowledge';
 
 function Body() {
   const [isModalVisible, setIsModalVisible] = useState(false);
-  const [isModalVisibleTwo, setIsModalVisibleTwo] = useState(false);
+  const [isAboutMeVisible, setIsAboutMeVisible] = useState(false);
+
   return (
     <div>
       <header>
@@ -20,32 +21,28 @@ function Body() {
       <section className="container-buttons">
         <button
           type="button"
-          onClick={() => setIsModalVisible(true)}
+          onClick={() => setIsAboutMeVisible(true)}
           className="buttons"
         >
           Um pouco sobre mim
         </button>
-        {isModalVisible
-          && (
-          <Modal onClose={() => setIsModalVisible(false)}>
+        {isAboutMeVisible && (
+          <Modal onClose={() => setIsAboutMeVisible(false)}>
             <AboutMe />
           </Modal>
-          )}
-
+        )}
         <button
           type="button"
           className="buttons"
-          onClick={() => setIsModalVisibleTwo(true)}
+          onClick={() => setIsModalVisible(true)}
         >
           Meus conhecimentos
         </button>
-        {isModalVisibleTwo
-          && (
-          <Modal onClose={() => setIsModalVisibleTwo(false)}>
+        {isModalVisible && (
+          <Modal onClose={() => setIsModalVisible(false)}>
             <MyKnowledge />
           </Modal>
-          )}
-
+        )}
       </section>
     </div>
   );

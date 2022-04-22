@@ -9,16 +9,28 @@ import nodejs from '../images/nodejs.png';
 import reactimg from '../images/reactImg.png';
 import jest from '../images/jest.png';
 import rtl from '../images/rtl.svg';
-import './css/Body/icons.css';
+import './css/Body/MyKnowledge.css';
 
 const MyKnowledge = () => {
-  const images = [html, css, js, reactimg, jest, rtl, git, docker, mysql, nodejs];
+  const images = [
+    html,
+    css,
+    js,
+    reactimg,
+    jest,
+    rtl,
+    git,
+    docker,
+    mysql,
+    nodejs,
+  ];
   return (
-    <div className='container-images'>
-      {images.map((image) => <img
-       src={image} alt="fotos" className="icons"/>)}
+    <div className="container-images">
+      {images.map((image) => (
+        <img src={image} key={image} alt="fotos" className="icons" />
+      ))}
     </div>
-    );
+  );
 };
 
 export default MyKnowledge;

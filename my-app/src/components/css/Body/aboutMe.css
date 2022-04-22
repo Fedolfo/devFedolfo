@@ -1,92 +1,61 @@
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .container-about-me {
-  align-items: center;
-  display: flex;
-  padding: 20px;
-  text-align: justify;
+    align-items: center;
+    display: flex;
+    padding: 20px;
+    text-align: justify;
 }
 
 .container-text {
-  display: flex;
-  text-align: center;
-  flex-direction: column;
-  padding: 20px;
-  font-size: 24px;
-  margin-top: 150px;
-  line-height: 28px;
-  color: #1c1c1c;
-}
-
-.container-about-me .photo-perfil {
-  border-radius: 50%;
-  position: absolute;
-  top: 110px;
-  /* width: 150px; */
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin: 40px 0 0 0;
+    padding: 20px;
+    font-size: 24px;
+    line-height: 28px;
+    color: #1c1c1c;
 }
 
 .container-about-me .container-text a {
-  color: #1c1c1c;
+    color: #1c1c1c;
 }
 
 @media (max-width: 575.98px) {
-  .container-text {
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    padding: 20px;
-    font-size: 16px;
-    margin-top: 110px;
-    line-height: 20px;
-    color: #1c1c1c;
-  }
-
-  .container-about-me .photo-perfil {
-    border-radius: 50%;
-    position: absolute;
-    top: 90px;
-    width: 150px;
-  }
+    .container-text {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        margin: 0;
+        font-size: 16px;
+        line-height: 18px;
+        color: #1c1c1c;
+    }
 }
 
-@media (min-width: 576px) and (max-width: 767.98px) {
-  .container-text {
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    padding: 20px;
-    font-size: 20px;
-    margin-top: 110px;
-    line-height: 28px;
-    color: #1c1c1c;
-  }
-
-  .container-about-me .photo-perfil {
-    border-radius: 50%;
-    position: absolute;
-    top: 120px;
-    width: 150px;
-  }
+@media (min-width: 576px) and (max-width: 768.98px) {
+    .container-text {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        padding: 20px;
+        font-size: 16px;
+        line-height: 28px;
+        color: #1c1c1c;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-  .container-text {
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    padding: 20px;
-    font-size: 20px;
-    margin-top: 110px;
-    line-height: 28px;
-    color: #1c1c1c;
-  }
-
-  .container-about-me .photo-perfil {
-    border-radius: 50%;
-    position: absolute;
-    top: 130px;
-    width: 150px;
-  }
+    .container-text {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        font-size: 20px;
+        padding: 20px;
+        line-height: 28px;
+        color: #1c1c1c;
+    }
 }
