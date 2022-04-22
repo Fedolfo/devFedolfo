@@ -4,17 +4,17 @@ import './css/Header/header.css';
 
 function Header() {
   return (
-    <nav className='header'>
+    <nav className="header">
       <ul>
-          <li>
-            <Link to="/">Sobre mim</Link>
-          </li>
-          <li>
-            <Link to="/projetos">Projetos</Link>
-          </li>
-          <li>
-            <Link to="/contato">Contato</Link>
-          </li>
+        <li>
+          <Link to="/">Sobre mim</Link>
+        </li>
+        <li>
+          <Link to="/projetos">Projetos</Link>
+        </li>
+        <li>
+          <Link to="/contato">Contato</Link>
+        </li>
       </ul>
     </nav>
   );
