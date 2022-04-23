@@ -3,8 +3,8 @@ import Routes from './Routes';
 
 function App() {
   return (
-    <main className="App">
-      <center className="App-header">
+    <main>
+      <center className="App">
         <Routes />
       </center>
     </main>
