@@ -4,6 +4,7 @@ import './css/Body/body.css';
 import Modal from './Modal';
 import AboutMe from './AboutMe';
 import MyKnowledge from './MyKnowledge';
+import Footer from './Footer';
 
 function Body() {
   const [isModalVisible, setIsModalVisible] = useState(false);
@@ -44,6 +45,7 @@ function Body() {
           </Modal>
         )}
       </section>
+      <Footer />
     </div>
   );
 }
