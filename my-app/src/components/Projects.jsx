@@ -10,6 +10,7 @@ import appRecipesFood from '../images/projects/app-recipes-food.png';
 import movieCrudPanel from '../images/projects/movieCrudPanel.png';
 import Modal from './Modal';
 import ContentPanel from './ContentPanel';
+import Footer from './Footer';
 
 function Projects() {
   const [isModalVisible, setIsModalVisible] = useState(false);
@@ -80,6 +81,7 @@ function Projects() {
             </Modal>
           )}
         </div>
+        <Footer />
       </section>
     </main>
   );
