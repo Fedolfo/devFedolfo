@@ -2,11 +2,8 @@ import React, { useState } from 'react';
 import './css/project/projects.css';
 import Header from './Header';
 import Panels from './Panels';
-// import pixelArt from '../images/projects/pixel-art.png';
-// import licoesAprendidas from '../images/projects/licoes.png';
-// import trybewarts from '../images/projects/trybewarts.png';
-// import cartShop from '../images/projects/cartShop.png';
-// import trivia from '../images/projects/trivia.png';
+import futebolClub from '../images/projects/futebolClub.png';
+import futebolClubPanel from '../images/projects/futebolClubPainel.png';
 import movieCrud from '../images/projects/moviecrud.png';
 import recipesAppFoodPanel from '../images/projects/recipesAppFoodPanel.png';
 import appRecipesFood from '../images/projects/app-recipes-food.png';
@@ -17,6 +14,7 @@ import ContentPanel from './ContentPanel';
 function Projects() {
   const [isModalVisible, setIsModalVisible] = useState(false);
   const [isModalVisible2, setIsModalVisible2] = useState(false);
+  const [isModalVisible3, setIsModalVisible3] = useState(false);
 
   return (
     <main>
@@ -57,43 +55,30 @@ function Projects() {
                 url="https://movie-card-library-crud-liart.vercel.app/"
                 photo={movieCrud}
                 descriptionPhoto="página de Movie Card Crud"
-                description="Desenvolvido um Aplicativo de Movie Card Crud em que podemos buscar, filtrar, favoritar e acompanhar o processo de preparação de receitas e bebidas."
+                description="Desenvolvido um Aplicativo de Movie Card Crud em que podemos criar novos filmes, ver detalhes sobre o filme, editar, excluir."
                 urlDeploy="https://movie-card-library-crud-liart.vercel.app/"
                 urlGithub="https://github.com/Fedolfo/movie-card-library-crud"
               />
             </Modal>
           )}
-          {/*
-           <Panels
-            title="Trivia Redux"
-            url="https://trivia-redux-roan.vercel.app/"
-            photo={trivia}
-            descriptionPhoto="página trivia redux"
-          /> */}
-          {/* <Panels
-            title="Lições Aprendidas"
-            url="https://lessons-learned.vercel.app/"
-            photo={licoesAprendidas}
-            descriptionPhoto="página de lições aprendidas"
-          />
           <Panels
-            title="Trybewarts"
-            url="https://trybe-warts-khaki.vercel.app/"
-            photo={trybewarts}
-            descriptionPhoto="página de trybewarts"
+            title="Futebol Club"
+            photo={futebolClubPanel}
+            descriptionPhoto="Futebol Club"
+            onClick={() => setIsModalVisible3(true)}
           />
-          <Panels
-            title="Carrinho de compras"
-            url="https://carrinho-compras-gamma.vercel.app/"
-            photo={cartShop}
-            descriptionPhoto="página de carrinho de compras"
-          />
-          <Panels
-            title="App de Receitas"
-            url="https://recipes-app-blue.vercel.app/ "
-            photo={recipe}
-            descriptionPhoto="página recipes app"
-          /> */}
+          {isModalVisible3 && (
+            <Modal onClose={() => setIsModalVisible3(false)}>
+              <ContentPanel
+                title="Futebol Club"
+                photo={futebolClub}
+                descriptionPhoto="Futebol Club"
+                description="Desenvolvido uma API consumindo um banco de dados, utilizando principios SOLID e arquitetura MSC com TypeScript, POO e dockerização(dockerfile, docker-compose). Utilizando modelagem de dados através do Sequelize, onde tem a finalidade de ser consumida por um front-end, já construído pelo time da trybe nesse projeto."
+                urlDeploy=""
+                urlGithub="https://github.com/Fedolfo/Trybe-futebol-clube"
+              />
+            </Modal>
+          )}
         </div>
       </section>
     </main>

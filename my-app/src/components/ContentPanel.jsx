@@ -23,9 +23,11 @@ function ContentPanel({
       </div>
 
       <div className="buttons-content-panel">
-        <a href={urlDeploy} target="_blank">
-          <button type="button">Deploy</button>
-        </a>
+        {urlDeploy ? (
+          <a href={urlDeploy} target="_blank">
+            <button type="button">Deploy</button>
+          </a>
+        ) : null}
 
         <a href={urlGithub} target="_blank">
           <button type="button">Github</button>
