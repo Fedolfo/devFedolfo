@@ -78,3 +78,25 @@ h2 {
   outline: none;
   background: #09d;
 }
+
+@media (max-width: 575.98px) {
+
+  .container-contact h1,
+  h2 {
+    font-size: 2rem;
+  }
+
+  .container-contact .form input,
+  .form textarea {
+    font: inherit;
+    width: 15em;
+  }
+
+  .container-contact .form button {
+    width: 15em;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768.98px) {}
+
+@media (min-width: 768px) and (max-width: 991.98px) {}
