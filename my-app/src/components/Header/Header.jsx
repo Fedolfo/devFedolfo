@@ -10,7 +10,7 @@ function Header() {
       <ul>
         <li>
           <a
-            class="button"
+            className="button"
             href="https://www.linkedin.com/in/filipe-c%C3%A2ndido/"
             target="_blank"
             rel="noreferrer"
@@ -29,7 +29,7 @@ function Header() {
         </li>
         <li>
           <a
-            class="button"
+            className="button"
             href="https://github.com/Fedolfo"
             target="_blank"
             rel="noreferrer"

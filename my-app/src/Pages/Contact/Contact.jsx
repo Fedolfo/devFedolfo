@@ -14,7 +14,7 @@ function Contact() {
         <form
           action="https://formsubmit.co/dev-filipe@hotmail.com"
           method="POST"
-          class="form"
+          className="form"
         >
           <input type="hidden" name="_captcha" value="false"></input>
           <label htmlFor="name">
