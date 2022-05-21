@@ -16,7 +16,6 @@ function Home() {
         <Header />
       </header>
       <section className="apresentation">
-        <span>[Em construção]</span>
         <h2>Olá, me chamo Filipe, Bem vindo(a) ao meu Portfólio!</h2>
       </section>
       <section className="container-buttons">
