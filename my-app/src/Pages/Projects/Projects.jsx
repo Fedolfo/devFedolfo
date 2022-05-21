@@ -10,7 +10,6 @@ import movieCrudPanel from '../../assets/images/projects/movieCrudPanel.png';
 import ContentPanel from '../../components/ContentPanel/ContentPanel';
 import Panels from '../../components/Panels/Panels';
 import Modal from '../../components/Modal/Modal';
-import Footer from '../../components/Footer/Footer';
 
 function Projects() {
   const [isModalVisible, setIsModalVisible] = useState(false);
@@ -81,7 +80,6 @@ function Projects() {
             </Modal>
           )}
         </div>
-        <Footer />
       </section>
     </main>
   );
