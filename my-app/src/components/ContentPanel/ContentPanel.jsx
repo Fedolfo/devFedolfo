@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import './css/project/projects.css';
+import './contentPanel.css';
 
 function ContentPanel({
   title,

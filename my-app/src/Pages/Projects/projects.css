@@ -1,0 +1,11 @@
+* {
+	box-sizing: border-box;
+}
+
+.panel-container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	background-color: #dddddd;
+	border-radius: 130px 0 130px 0;
+}

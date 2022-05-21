@@ -1,0 +1,18 @@
+.panel {
+  display: flex;
+  cursor: pointer;
+  width: 400px;
+  height: 212px;
+  margin: 30px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+.panel:hover {
+  background-color: #282c34;
+}
+
+.panel img:hover {
+  transition: 0.4s;
+  transform: scale(1.1);
+}

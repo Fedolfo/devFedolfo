@@ -1,16 +1,16 @@
 import React, { useState } from 'react';
-import './css/project/projects.css';
-import Header from './Header';
-import Panels from './Panels';
-import futebolClub from '../images/projects/futebolClub.png';
-import futebolClubPanel from '../images/projects/futebolClubPainel.png';
-import movieCrud from '../images/projects/moviecrud.png';
-import recipesAppFoodPanel from '../images/projects/recipesAppFoodPanel.png';
-import appRecipesFood from '../images/projects/app-recipes-food.png';
-import movieCrudPanel from '../images/projects/movieCrudPanel.png';
-import Modal from './Modal';
-import ContentPanel from './ContentPanel';
-import Footer from './Footer';
+import './projects.css';
+import Header from '../../components/Header/Header';
+import futebolClub from '../../assets/images/projects/futebolClub.png';
+import futebolClubPanel from '../../assets/images/projects/futebolClubPainel.png';
+import movieCrud from '../../assets/images/projects/moviecrud.png';
+import recipesAppFoodPanel from '../../assets/images/projects/recipesAppFoodPanel.png';
+import appRecipesFood from '../../assets/images/projects/app-recipes-food.png';
+import movieCrudPanel from '../../assets/images/projects/movieCrudPanel.png';
+import ContentPanel from '../../components/ContentPanel/ContentPanel';
+import Panels from '../../components/Panels/Panels';
+import Modal from '../../components/Modal/Modal';
+import Footer from '../../components/Footer/Footer';
 
 function Projects() {
   const [isModalVisible, setIsModalVisible] = useState(false);

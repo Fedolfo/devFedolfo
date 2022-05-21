@@ -1,0 +1,43 @@
+.container-content-panel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.container-content-panel img {
+  height: 442px;
+  width: 1175px;
+  object-fit: contain;
+}
+
+.container-content-panel .content-description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 10px;
+  width: 70%;
+}
+
+.container-content-panel .content-description p {
+  text-align: justify;
+  font-size: 20px;
+}
+
+.container-content-panel .buttons-content-panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.container-content-panel .buttons-content-panel button {
+  width: 120px;
+  height: 40px;
+  font-size: 18px;
+  margin: 20px 0 0 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: #333333;
+  color: white;
+  cursor: pointer;
+}

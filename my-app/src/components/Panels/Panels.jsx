@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import './css/project/projects.css';
+import './panels.css';
 
 function Panels({ onClick, photo, descriptionPhoto }) {
   return (

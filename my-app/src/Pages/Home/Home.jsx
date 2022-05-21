@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import Header from './Header';
-import './css/Body/body.css';
-import Modal from './Modal';
-import AboutMe from './AboutMe';
-import MyKnowledge from './MyKnowledge';
-import Footer from './Footer';
+import Header from '../../components/Header/Header';
+import './home.css';
+import AboutMe from '../../components/AboutMe/AboutMe';
+import Modal from '../../components/Modal/Modal';
+import Footer from '../../components/Footer/Footer';
+import MyKnowledge from '../../components/MyKnowledge/MyKnowledge';
 
-function Body() {
+function Home() {
   const [isModalVisible, setIsModalVisible] = useState(false);
   const [isAboutMeVisible, setIsAboutMeVisible] = useState(false);
 
@@ -50,4 +50,4 @@ function Body() {
   );
 }
 
-export default Body;
+export default Home;

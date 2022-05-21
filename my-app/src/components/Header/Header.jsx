@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './css/Header/header.css';
-import linkedin from '../images/header/icons8-linkedin-circundado.svg';
-import github from '../images/header/icons8-github.svg';
+import './header.css';
+import linkedin from '../../assets/images/header/icons8-linkedin-circundado.svg';
+import github from '../../assets/images/header/icons8-github.svg';
 
 function Header() {
   return (
