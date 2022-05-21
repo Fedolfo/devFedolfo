@@ -28,7 +28,11 @@
 /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
   .apresentation {
-    margin-top: 150px;
+    margin-top: 50px;
+  }
+
+  .apresentation h2 {
+    font-size: 30px;
   }
 
   .buttons {
