@@ -1,12 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .header {
     display: flex;
     justify-content: center;
     text-transform: uppercase;
+    padding: 20px;
+}
+
+
+.header ul {
+    display: flex;
+    flex-direction: row;
 }
 
 .header ul li {
+    align-items: center;
+    display: flex;
     border-bottom: 1px solid #ccc;
-    display: inline-block;
     font-size: 22px;
     list-style-type: none;
     padding: 8px;
@@ -24,34 +38,62 @@ a:visited {
 }
 
 @media (max-width: 575.98px) {
+    .header {
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .header ul {
+        display: flex;
+        flex-direction: row;
+    }
+
     .header ul li {
-        border-bottom: 1px solid #ccc;
-        display: inline-block;
-        font-size: 22px;
-        list-style-type: none;
-        padding: 8px;
-        font-size: 18px;
+        align-items: center;
+        display: flex;
+        font-size: 12px;
         text-shadow: 2px 2px #111111;
+    }
+
+    .header ul li a img {
+        width: 30px;
     }
 }
 
 @media (min-width: 576px) and (max-width: 768.98px) {
+    .header ul {
+        display: flex;
+        flex-direction: row;
+        padding: 20px;
+    }
+
     .header ul li {
+        align-items: center;
+        display: flex;
         border-bottom: 1px solid #ccc;
-        display: inline-block;
         font-size: 22px;
         list-style-type: none;
-        padding: 8px;
         text-shadow: 2px 2px #111111;
     }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
+    .header {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .header ul {
+        display: flex;
+        flex-direction: row;
+    }
+
     .header ul li {
         border-bottom: 1px solid #ccc;
-        display: inline-block;
+        align-items: center;
+        display: flex;
         list-style-type: none;
-        padding: 8px;
         text-shadow: 2px 2px #111111;
     }
 }
