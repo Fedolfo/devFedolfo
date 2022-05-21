@@ -1,8 +1,8 @@
 .panel {
   display: flex;
   cursor: pointer;
-  width: 400px;
-  height: 212px;
+  width: 25em;
+  height: 13.25em;
   margin: 30px;
   border: 1px solid;
   border-radius: 5px;
@@ -15,4 +15,11 @@
 .panel img:hover {
   transition: 0.4s;
   transform: scale(1.1);
+}
+
+@media (max-width: 575.98px) {
+  .panel {
+    width: 22em;
+    height: 11em;
+  }
 }
