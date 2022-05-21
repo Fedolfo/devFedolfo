@@ -1,4 +1,6 @@
 * {
+	margin: 0;
+	padding: 0;
 	box-sizing: border-box;
 }
 
@@ -6,6 +8,10 @@
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-	background-color: #dddddd;
-	border-radius: 130px 0 130px 0;
+}
+
+@media (max-width: 575.98px) {
+	section h2 {
+		font-size: 2em;
+	}
 }
